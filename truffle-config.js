@@ -40,7 +40,7 @@ module.exports = {
     development: {
       provider: function() {
         return new HDWalletProvider(
-          "inject royal guard spare celery boss arrest win odor museum much history",
+          "",
           "https://rpc.gnosischain.com"
         );
       },
