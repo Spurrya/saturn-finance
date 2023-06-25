@@ -4,6 +4,8 @@ pragma solidity ^0.8.0;
 
 import "./ERC20Adapter.sol";
 
+
+// We don't really token swap, its just here
 contract TokenSwap {
     ERC20Adapter public token1;
     ERC20Adapter public token2;
